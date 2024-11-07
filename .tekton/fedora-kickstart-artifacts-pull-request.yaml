@@ -16,7 +16,7 @@ spec:
       image: ubuntu
       script: |
         #!/bin/bash
-        echo "Goodbye $(params.username)!"
+        echo "Goodbye $(params.username)"
 ---
 apiVersion: tekton.dev/v1
 kind: Pipeline
