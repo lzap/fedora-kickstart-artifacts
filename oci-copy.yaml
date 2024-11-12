@@ -1,0 +1,6 @@
+---
+artifact_type: "application/vnd.org.pulpproject.netboot.artifact.v1"
+artifacts:
+  - source: https://download-cc-rdu01.fedoraproject.org/pub/fedora/linux/releases/41/Everything/x86_64/os/images/pxeboot/vmlinuz
+    filename: "vmlinuz"
+    type: "application/vnd.org.pulpproject.netboot.artifact.v1"
